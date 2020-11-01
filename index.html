@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>X4.Digital-ТЗ</title>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__inner">
+
+                <div class="logo">
+                    <a href="#">
+                        <img src="images/logo.svg" alt="">
+                    </a>
+                </div>
+                <nav class="menu">
+                    <ul class="menu__list">
+                        <li class="is-active"><a href="#">Новости</a></li>
+                        <li><a href="#">Архив</a></li>
+                        <li><a href="#">Контакты</a></li>
+                    </ul>
+                </nav>
+                <div class="header__btn">
+                    <div class="sign-in">
+                        <a href="#">Войти</a>
+                    </div>
+                    <div class="mobile-menu">
+                        <span></span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </header>
+    <section class="news">
+        <div class="container">
+            <div class="news__inner">
+                <div class="breadcrumb">
+                    <ul class="breadcrumb__list">
+                        <li class="breadcrumb__item"><a href="#">Главная</a></li>
+                        <li class="breadcrumb__item"><a href="#">Новости</a></li>
+                        <li class="breadcrumb__item is-active">Очень интересная новость</li>
+                    </ul>
+                </div>
+                <div class="news__title title">
+                    <span>Очень интересная новость</span>
+                </div>
+                <div class="news__article">
+                    <span>Идейные соображения высшего порядка, а также укрепление и развитие структуры обеспечивает
+                        широкому кругу (специалистов) участие в формировании новых предложений. Задача организации, в
+                        особенности же реализация намеченных плановых заданий обеспечивает широкому кругу (специалистов)
+                        участие в формировании направлений прогрессивного развития. Таким образом сложившаяся <a
+                            class="link" href="#">структура организации</a>
+                        требуют определения и уточнения систем массового участия. Не следует, однако
+                        забывать, что укрепление и развитие структуры позволяет оценить значение систем массового
+                        участия.</span>
+                </div>
+                <div class="news__img">
+                    <img src="images/img1.svg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="feedback">
+        <div class="container">
+            <div class="feedback__inner">
+                <form class="form" action="">
+                    <div class="form__inner">
+                        <div class="form__title">
+                            <span>Написать отзыв</span>
+                        </div>
+                        <div class="form__inputs">
+                            <div class="form__input">
+                                <label for="name">Ваше имя</label>
+                                <input id="name" type="text" autocomplete="off" required="">
+                            </div>
+                            <div class="form__input">
+                                <label for="email">Почта</label>
+                                <input id="email" type="email" autocomplete="off" required="">
+                            </div>
+                            <div class="form__input">
+                                <label for="phone">Телефон</label>
+                                <input id="phone" type="text" autocomplete="off" required="">
+                            </div>
+                            <div class="form__input">
+                                <label for="text">Текст</label>
+                                <textarea name="" id="text" cols="1" rows="10" autocomplete="off"
+                                    required=""></textarea>
+                            </div>
+                        </div>
+                        <div class="form__btn">
+                            <button type="submit"></button>
+                        </div>
+                    </div>
+                </form>
+                <img class="feedback-img--right" src="images/img2.svg" alt="">
+                <img class="feedback-img--left" src="images/img3.svg" alt="">
+            </div>
+
+        </div>
+    </section> 
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
